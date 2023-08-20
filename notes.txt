@@ -1,0 +1,19 @@
+ const Container = styled(FormGroup)`
+  width:50% ;
+  margin:5% auto 0 auto;
+  & > div{
+    margin-top:20px ;
+  }
+` 
+------->
+
+
+In the provided code, & > div is a CSS selector that targets direct child div elements within the Container component.
+
+Specifically, the CSS rule margin-top: 20px is applied to those direct child div elements. This rule adds a top margin of 20px to each direct child div within the Container component.
+
+Here's a breakdown of what each part of the CSS rule means:
+
+&: The ampersand (&) is a special character in styled-components that refers to the component itself. In this case, it represents the Container component.
+>: The greater-than symbol (>) is a CSS combinator used to select direct child elements.
+div: This refers to the div elements that are direct children of the Container component.

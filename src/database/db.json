@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "Shikhar Dhawan",
+      "username": "dhawansikhar",
+      "email": "dhawan@gmail.com",
+      "phone": "4569874563",
+      "id": 2
+    },
+    {
+      "name": "Virat Kohli",
+      "username": "kingkohli",
+      "email": "viratkohli@gmail.com",
+      "phone": "8596589658",
+      "id": 3
+    },
+    {
+      "name": "ABD",
+      "username": "alien",
+      "email": "abd@gmail.com",
+      "phone": "181510890560",
+      "id": 4
+    },
+    {
+      "name": "Gill",
+      "username": "prince",
+      "email": "gillshubh@gmail.com",
+      "phone": "82562820608",
+      "id": 5
+    }
+  ]
+}
