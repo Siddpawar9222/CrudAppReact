@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://Siddpawar9222.github.io/CrudAppReact" ,
   "name": "CRUD-App",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy" : "gh-pages -d build",
     "json-server": "json-server --watch src/database/db.json --host 127.0.0.1 --port 3002",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
